@@ -1,0 +1,65 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cont {
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin: 0 auto;
+    width: 80%;
+    height: max-content;
+    background-color: #F3F3F5;
+}
+
+.box {
+    width: 360px;
+    height: 535px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+.boxTop {
+    height: 35%;
+    width: 100%;
+    background-color: white;
+}
+
+.boxTop h4 {
+    font-weight: 200;
+    font-size: 12px;
+    opacity: .5;
+}
+
+.boxTop p {
+    font-weight: 1000;
+    font-size: 24px;
+}
+
+.boxTop span {
+    font-weight: 500;
+    font-size: 18px;
+    opacity: .5;
+}
+
+.boxBottom {
+    position: relative;
+    height: 65%;
+    width: 100%;
+    background-color: white;
+}
+
+.boxBottom img {
+    top: 48.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+    height: 357.50px;
+    background-size: cover;
+    background-position: center;
+}
